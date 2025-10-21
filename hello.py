@@ -65,6 +65,41 @@
 # print(word[1:4:2])       #it will print bd
 
 # String function
-a="anshman"
+# a="anshman"
 # 1. len(a)  #return 4
-# 2. string.endwith("an") #returns true
+# 2. a.endwith("an") #returns true
+# 3. a.count("a") #return 2
+# 4. a.capatalize() #return Anshman
+# 5. a.find("m") #return 4
+# 6. a.replace(old word,new word)
+
+#Escape sequence
+# \n , \t , \: , etc
+
+# Practice Questions
+
+# 1. Write a python program to display a user entered name followed by Good Afternon using input() function
+
+#  a=str(input("User name:"))
+# print(f"Good afternoon {a}")
+
+
+# 2. write a program to fill in a letter template given below with name and date 
+# Dear <name> 
+# You are selected!
+# <date>
+
+# a=str(input("User name: "))
+# b=int(input("Date(dd/mm/yyyy):"))
+# print(f'''Dear {a}
+# You are selected!
+# Date {b}''')
+
+# 3. write a program to detect double space in a string
+# name=str(input("Enter any strng to detect double space : "))
+# print(name.find("  "))
+ 
+# 4. replace the double space from 3 with single space
+# name=str(input("Enter any string to detect double space : "))
+# print(name.replace("  "," "))
+
