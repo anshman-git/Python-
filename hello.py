@@ -103,3 +103,5 @@
 # name=str(input("Enter any string to detect double space : "))
 # print(name.replace("  "," "))
 
+..............
+
