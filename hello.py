@@ -135,4 +135,15 @@
 # marks.sort()
 # print(marks)
 
-# 2.Check that a type cannot be changed in python
+# 3.Check that a type cannot be changed in python
+# a=[1,87,"ansh"]
+# a(2)="anshman"          #not possible
+
+# 4. WAP to sum a list with 4 no.
+# a = [22,65,44,34]
+# print(sum(a))
+
+# 5. Write a program to count the number of zeros in the following tuple
+a=[7,0,8,0,0,9]
+n=a.count(0)
+print(n)
