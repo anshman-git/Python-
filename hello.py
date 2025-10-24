@@ -144,6 +144,30 @@
 # print(sum(a))
 
 # 5. Write a program to count the number of zeros in the following tuple
-a=[7,0,8,0,0,9]
-n=a.count(0)
-print(n)
+# a=[7,0,8,0,0,9]
+# n=a.count(0)
+# print(n)
+
+# CHAPTER 5         DICTIONARY AND KEYS
+# Dictionary is a collection of keys values pairs.
+# Ex. 
+# a={"Key":"values",
+#    "name":"Ansh",
+#    list:[1,2,9]
+#    }
+
+# Dictionaries Methods
+
+# Sample={"name":"Anshman",
+# "course":"BCA",
+# "Section":"A"
+# }
+
+# print(Sample.items())
+# print(Sample.keys())
+# print(Sample.values())
+
+# Sample.update({"name":"Harry"})
+# print(Sample.items())
+
+# print(Sample.get("name"))
