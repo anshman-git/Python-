@@ -192,3 +192,19 @@
 # }
 # word=(input("Enter word:-"))
 # print(dic[word])
+
+# 2.Write a program to input eight numbers from the user and display all the unique number at once
+# a=int(input("enter number:-"))
+# b=int(input("enter number:-"))
+# c=int(input("enter number:-"))
+# d=int(input("enter number:-"))
+# e=int(input("enter number:-"))
+# f=int(input("enter number:-"))
+# s=set()
+# s.add(a)
+# s.add(b)
+# s.add(c)
+# s.add(d)
+# s.add(e)
+# s.add(f)
+# print(s)
