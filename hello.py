@@ -171,3 +171,24 @@
 # print(Sample.items())
 
 # print(Sample.get("name"))
+
+# Sets
+# set is a collection of non repititive elements
+# OPERATIONS
+# s={2,5,3,8,9}
+# 1. len(s)          returns length
+# 2. s.remove(2)     remove 2 from set s
+# 3. s.clear()       clear the set
+# s.union({53})
+# s.intersection
+
+# PRACTICE QUESTIONS
+# 1. Write a program to create a dictionary of hindi word with values as their English translation.
+# also provide user with an option to look it up.
+# dic={
+#     "madad":"Help",
+#     "pani":"Water",
+#     "jadu":"Magic"
+# }
+# word=(input("Enter word:-"))
+# print(dic[word])
