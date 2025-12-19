@@ -228,3 +228,80 @@
 # lan=input("enter your language:")
 # d.update({name:lan})
 # print(d)
+
+# Chapter 6               Conditional Expressions
+
+# if else and elif in python
+# Questions
+# 1.Write the program to find the greatest no. entered by the user
+# a=int(input("Enter first number:"))
+# b=int(input("Enter second number:"))
+# if(a>b) :
+#     print("First number is greater")
+# elif(b>a) :
+#     print("Second number is greater")    
+# else :
+#     print("Same")
+
+# 2.Write a program to find out whether a student has passed or failed if it requires a
+# total of 40% and at least 33% in each subject to pass. Assume 3 subjects and
+# take marks as an input from the user.
+# maths=int(input("Enter maths marks:"))
+# chemistry=int(input("Enter chemistry marks:"))
+# physics=int(input("Enter physics marks:"))
+# total=((maths+chemistry+physics)/3)
+# if(total>=40 and physics>=33 and chemistry>=33 and maths>=33) :
+#     print("PASS")
+# else :
+#     print("FAIL")
+
+# 3.A spam comment is defined as a text containing following keywords:
+# “Make a lot of money”, “buy now”, “subscribe this”, “click this”. Write a program
+# to detect these spams.
+# mess=input("Enter the message:")
+# if(mess=="Make a lot of money" or mess=="buy now" or mess=="subscribe this" or mess=="click this") :
+#     print("This is spam comment")
+
+# 4.Write a program to find whether a given username contains less than 10 characters or not.
+# s=input("Enter username: ")
+# l=len(s)
+# if(l>10) :
+#     print("Usename should be less than 10 words")
+
+# 5.Write a program which finds out whether a given name is present in a list or not.
+# l={"anshman","divya","eklavya","mona"}
+# name=input("Enter your name :")
+# if(name in l) :
+#     print("Your name is present in the list")
+# else :
+#     print("Your name is not present in the list")
+
+# 6.Write a program to calculate the grade of a student from his marks from the following scheme:
+# 90 – 100 => Ex
+# 80 – 90 => A
+# 70 – 80 => B
+# 60 – 70 =>C
+# 50 – 60 => D
+# <50 => F
+
+# marks=int(input("Enter your marks"))
+# if(marks>=90 and marks<=100) :
+#     grade = "A"
+# elif(marks>80 and marks<=90) :
+#     grade = "B"
+# elif(marks>70 and marks<=80) :
+#     grade = "C"
+# elif(marks>60 and marks<=70) :
+#     grade = "D"
+# elif(marks>50 ) :
+#     grade = "F"
+# print("Your grade is :",grade)
+
+# 7.Write a program to find out whether a given post is talking about “Ansh” or not.
+# post=input("Enter the post : ")
+# if("Ansh".lower() in post.lower()) :
+#     print("\"ansh\" is in post")
+# else:
+#     print("This post is not containing Ansh")
+
+
