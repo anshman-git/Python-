@@ -305,3 +305,33 @@
 #     print("This post is not containing Ansh")
 
 
+# Chapter 7            LOOPS IN PYTHON
+
+# Types of loops : (a) for loop 
+#                  (b) while loop
+
+# print table of 2
+# i=1
+# for i in range(11) :
+#     print(2*i)
+#     i+=1
+
+# for loop with else
+# l=[1,65,'ansh']
+# for i in l:
+#     print(i)
+# else :
+#     print("done")
+
+# break statement
+# for i in range(100) :
+#     if(i==34) :
+#         break #exit from the loop
+#     print(i)
+
+# continue statement
+# for i in range(100) :
+#     if(i==34) :
+        # continue  #skip this iteration
+#     print(i)
+
