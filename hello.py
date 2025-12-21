@@ -335,3 +335,58 @@
         # continue  #skip this iteration
 #     print(i)
 
+# PRACTICE QUESTIONS 
+# 1. Write a program to print multiplication table of a given number using for loop.
+# n=int(input("Enter any number:"))
+# i=1
+# while(i<=10) :
+#     print(n*i)
+#     i+=1
+
+# 2.Write a program to greet all the person names stored in a list ‘l’ and which starts with S.
+
+# l = ["Harry", "Soham", "Sachin", "Rahul"]
+# for name in l :
+#     print("Good morning",name)
+
+# 3. Write a program to find whether a given number is prime or not.
+# n=int(input("Enter any number:"))
+# if(n%2==0) :
+#     print("Even number")
+# else :
+#     print("Odd number")
+
+# 5. Write a program to find the sum of first n natural numbers using while loop.
+# n=int(input("Enter any number:"))
+# i=1
+# sum=0
+# while(i<=n) :
+#     sum+=i
+#     i+=1
+# print(sum)
+
+# 6. Write a program to calculate the factorial of a given number using for loop.
+# n=int(input("Enter any number:"))
+# i=n
+# fac=1
+# while(i>0) :
+#     fac*=i
+#     i-=1
+# print(fac)
+
+# 7. Write a program to print the following star pattern.
+#   *
+#  ***
+# ***** for n = 3
+
+# 8. Write a program to print the following star pattern:
+# *
+# **
+# *** for n = 3
+
+# 9. Write a program to print the following star pattern.
+# * * *
+# *   * for n = 3
+# * * *
+
+# 10. Write a program to print multiplication table of n using for loops in reversed order.
