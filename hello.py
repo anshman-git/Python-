@@ -379,14 +379,34 @@
 #  ***
 # ***** for n = 3
 
+# n = int(input("Enter any number: "))
+# for i in range(1, n + 1):
+#         spaces = " " * (n - i)
+#         stars = "*" * (2 * i - 1)
+#         print(spaces + stars)
+
 # 8. Write a program to print the following star pattern:
 # *
 # **
 # *** for n = 3
+
+# n = int(input("Enter any number: "))
+# for i in range(1, n + 1):
+#         print("*" * i)
 
 # 9. Write a program to print the following star pattern.
 # * * *
 # *   * for n = 3
 # * * *
 
+n = int(input("Enter any number: "))
+# for i in range(1, n + 1):
+#         if i == 1 or i == n:
+#                 print("* " * n)
+#         else:
+#                 print("*" + "  " * (n - 2) + "*")
+
 # 10. Write a program to print multiplication table of n using for loops in reversed order.
+# n = int(input("Enter any number: "))
+# for i in range(10, 0, -1):
+#         print(f"{n} x {i} = {n * i}")
