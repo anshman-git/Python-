@@ -410,6 +410,27 @@
 #         print("")
 
 # 10. Write a program to print multiplication table of n using for loops in reversed order.
-n = int(input("Enter any number: "))
-for i in range(1,11):
-        print(f"{n} x {11-i} = {n * (11-i)}")
+# n = int(input("Enter any number: "))
+# for i in range(1,11):
+#         print(f"{n} x {11-i} = {n * (11-i)}")
+
+# CHAPTER 11                        FUNCTIONS 
+# function to print hello
+# def fun1():
+#     print("HELLO")
+
+# write a program to write a code to say good morning to the user 
+# def greet() :
+#     name=input("Enter user name: ")
+#     print(f"Good morning {name}")
+# greet()
+
+# TYPES OF FUNCTION 
+# 1.Built in function
+# 2.User defined function
+
+# FUNCTION WITH ARGUMENT
+# def goodday(name) :
+#     print(f"Good bye {name}!")
+# name=input("Enter your name : ")
+# goodday(name)
