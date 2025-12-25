@@ -414,7 +414,7 @@
 # for i in range(1,11):
 #         print(f"{n} x {11-i} = {n * (11-i)}")
 
-# CHAPTER 11                        FUNCTIONS 
+# CHAPTER 8                        FUNCTIONS 
 # function to print hello
 # def fun1():
 #     print("HELLO")
@@ -434,3 +434,15 @@
 #     print(f"Good bye {name}!")
 # name=input("Enter your name : ")
 # goodday(name)
+
+# RECURSION
+# def factorial(n) :
+#         if n == 0 or n==1:
+#                 return 1
+#         else:
+#                 return n * factorial(n-1)
+
+# n=int(input("Enter any number : "))
+# fac=factorial(n)
+# print(f"Factorial of {n} is {fac}")
+
