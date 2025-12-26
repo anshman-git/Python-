@@ -446,3 +446,72 @@
 # fac=factorial(n)
 # print(f"Factorial of {n} is {fac}")
 
+# PRACTICE QUESTION 
+# 1.Write a program using functions to find greatest of three numbers.
+# def greatest(a,b,c) :
+#     if(a>b and a>c) :
+#         return a
+#     elif(b>c) :
+#         return b
+#     else :
+#         return c
+# a=int(input("Enter a number:"))
+# b=int(input("Enter b number:"))
+# c=int(input("Enter c number:"))
+# great=greatest(a,b,c)
+# print(f"Greatest number is {great}")
+
+# 2.Write a python program using function to convert Celsius to Fahrenheit.
+# def c_to_f(c) :
+#     f=((9/5)*c) + 32
+#     return f
+# c=int(input("Enter Celsius:"))
+# fah=c_to_f(c)
+# print(f"Celsius to fahrenheit is {fah}")
+
+#3. How do you prevent a python print() function to print a new line at the end.
+# print("")
+
+# 4.Write a recursive function to calculate the sum of first n natural numbers.
+# def sum_of_n(n) :
+#     if(n==0) :
+#         return 0
+#     else:
+#         return n+sum_of_n(n-1)
+# n=int(input("Enter any number :"))
+# sum=sum_of_n(n) 
+# print(f"Sum of n number is {sum}")
+
+# 5.Write a python function to print first n lines of the following pattern:
+# ***
+# ** 
+# *
+# def pattern(n) :
+#     for i in range(n,0,-1) :
+#         print("*"*i)
+# n=int(input("Enter rows number:"))
+# pattern(n)
+        
+# 6.Write a python function which converts inches to cms.
+# def i_to_c(inches) :
+#     return inches*2.54
+# inches=int(input("Enter inches:"))
+# cm=i_to_c(inches)
+# print(cm)
+
+# 7.Write a python function to remove a given word from a list ad strip it at the same time.
+# def remove_word(lst, word):
+#         return [item.strip() for item in lst if item.strip() != word]
+
+# lst = input("Enter list items separated by comma: ").split(",")
+# word = input("Enter word to remove: ")
+# result = remove_word(lst, word)
+# print(result)
+
+# 8.Write a program to print multiplication table of n using for loops in reversed order.
+# def multiplication_table(n):
+#                 for i in range(1, 11):
+#                         print(f"{n} x {11-i} = {n * (11-i)}")
+
+# n = int(input("Enter any number: "))
+# multiplication_table(n)
