@@ -1,7 +1,7 @@
 import random
 
 def guess_number():
-    secret_number = random.randint(1, 100)
+    random_no = random.randint(1, 100)
     attempts = 0
     guessed = False
     
@@ -13,12 +13,12 @@ def guess_number():
             guess = int(input("Take a guess: "))
             attempts += 1
             
-            if guess < secret_number:
+            if guess < random_no:
                 print("Too low! Try again.")
-            elif guess > secret_number:
+            elif guess > random_no:
                 print("Too high! Try again.")
             else:
-                print(f"You got it! The number was {secret_number}.")
+                print(f"You got it! The number was {random_no}.")
                 print(f"It took you {attempts} attempts.")
                 guessed = True
         except ValueError:
