@@ -13,3 +13,15 @@
 #             else:
 #                 i+=1
 #         return factor
+
+
+# 2. Array Duplicate
+def arraydup(arr):
+    duplicates = []
+    for x in arr:
+        index = abs(x) - 1
+        if arr[index] < 0:
+            duplicates.append(abs(x))
+        else:
+            arr[index] *= -1
+    return duplicates
