@@ -42,3 +42,17 @@
 #         missing = total - (actual - dup[0])
 #         dup.append(missing)
 #         return dup
+
+# 4.Counts Digits
+#User function Template for python3
+
+# class Solution:
+#     def evenlyDivides(self, n):
+#         count = 0
+#         temp = n
+#         while temp > 0:
+#             digit = temp % 10
+#             if digit != 0 and n % digit == 0:
+#                 count += 1
+#             temp //= 10
+#         return count
