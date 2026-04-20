@@ -78,3 +78,11 @@
 #         while count < len(arr):
 #             arr[count] = 0
 #             count += 1
+
+# 7.Sum 1 to n divisor
+# class Solution:
+    # def sumOfDivisors(self, n):
+    #     total_sum = 0
+    #     for i in range(1, n + 1):
+    #         total_sum += (n // i) * i
+    #     return total_sum
