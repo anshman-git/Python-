@@ -86,3 +86,11 @@
     #     for i in range(1, n + 1):
     #         total_sum += (n // i) * i
     #     return total_sum
+
+# first occurence in sorted
+# class Solution:
+#     def fo(self, arr, k):
+#         try:
+#             return arr.index(k)
+#         except ValueError:
+#             return -1
