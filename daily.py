@@ -109,3 +109,13 @@
 #                 return i;
 #             left_sum+=arr[i]
 #         return -1
+
+
+#10
+# count vovel
+# def count_vowels(text):
+#     count = 0
+#     for ch in text:
+#         if ch in "aeiouAEIOU":
+#             count += 1
+#     return count
