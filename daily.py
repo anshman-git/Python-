@@ -119,3 +119,23 @@
 #         if ch in "aeiouAEIOU":
 #             count += 1
 #     return count
+
+# 11
+# Union of two array (g4g)
+# class Solution:
+#     def findUnion(self, a, b):
+#         # code here 
+#         i=0
+#         res=[]
+#         seen=set()
+#         while(i<len(a) or i<len(b)):
+#             if(i<len(a) and a[i] not in seen):
+#                 seen.add(a[i])
+#                 res.append(a[i])
+#             if(i<len(b) and b[i] not in seen):
+#                 seen.add(b[i])
+#                 res.append(b[i])
+            
+#             i+=1
+#         res.sort()
+#         return res
