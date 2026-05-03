@@ -139,3 +139,19 @@
 #             i+=1
 #         res.sort()
 #         return res
+
+# 12
+# Armstrong number
+# class Solution:
+#     def armstrongNumber (self, n):
+#         # code here 
+#         arm=0
+#         num=n
+#         while(num!=0):
+#             digit= num%10
+#             num=int(num/10)
+#             arm+=digit*digit*digit
+#         if(arm==n):
+#             return True
+#         else:
+#             return False
