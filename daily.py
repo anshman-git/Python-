@@ -155,3 +155,14 @@
 #             return True
 #         else:
 #             return False
+
+# 13
+# Third Largest
+# class Solution:
+#     def thirdLargest(self,arr):
+#         # code here
+#         lens=len(arr)
+#         if(lens<3):
+#             return -1
+#         arr.sort()
+#         return arr[lens-3]
