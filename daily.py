@@ -166,3 +166,16 @@
 #             return -1
 #         arr.sort()
 #         return arr[lens-3]
+
+# 14
+# sum of subarray
+# class Solution:
+#     def subarraySum(self, arr):
+#         # code here 
+#         sum=0
+#         n=len(arr)
+#         i=0
+#         for i in range(0,n):
+#             sum+=arr[i]*(i+1)*(n-i)
+#             i+=1
+#         return sum
