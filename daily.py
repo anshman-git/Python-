@@ -179,3 +179,5 @@
 #             sum+=arr[i]*(i+1)*(n-i)
 #             i+=1
 #         return sum
+
+# 15
