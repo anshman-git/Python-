@@ -181,3 +181,4 @@
 #         return sum
 
 # 15
+# You are given a String S, you need to print its characters at even indices(index starts at 0).
