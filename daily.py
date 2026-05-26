@@ -184,3 +184,27 @@
 # You are given a String S, you need to print its characters at even indices(index starts at 0).
 # s=input("Enter strring")
 # print(s[::2])  
+# 16
+#  Capacity To Ship Packages Within D Days ( leetcode 1011)
+# class Solution:
+#     def shipWithinDays(self, weights: List[int], days: int) -> int:
+#         l , r = max(weights),sum(weights)
+#         res=r
+
+#         def canShip(cap):
+#             ships, currCap = 1, cap
+#             for w in weights:
+#                 if currCap - w < 0:
+#                     ships += 1
+#                     currCap=cap
+#                 currCap -= w
+#             return ships <= days
+        
+#         while l <= r:
+#             cap = (l + r) // 2
+#             if canShip(cap):
+#                 res = min(res,cap)
+#                 r = cap-1
+#             else: 
+#                 l = cap + 1
+#         return res        
