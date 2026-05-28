@@ -209,4 +209,14 @@
 #                 l = cap + 1
 #         return res        
 
-# 
+# 17
+#  Check if a String Is an Acronym of Words (leetcode 2828)
+# class Solution:
+#     def isAcronym(self, words: List[str], s: str) -> bool:
+#         if not len(words)==len(s) : return False
+#         i=0
+#         for word in words:
+#             if not (word.startswith(s[i])):
+#                 return False
+#             i+=1
+#         return True
