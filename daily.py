@@ -245,3 +245,19 @@
 #                 count += 1
         
 #         return "".join(s_list)
+
+# 19
+# Digit freq score (leetcode)
+# class Solution:
+#     def digitFrequencyScore(self, n: int) -> int:
+#         digits = str(n)
+#         freq = {}
+#         for ds in digits:
+#             if ds in freq:
+#                 freq[ds] += 1
+#             else:
+#                 freq[ds] = 1
+#         total_score = 0
+#         for ds, count in freq.items():
+#             total_score += int(ds) * count
+#         return total_score
