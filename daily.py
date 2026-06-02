@@ -261,3 +261,5 @@
 #         for ds, count in freq.items():
 #             total_score += int(ds) * count
 #         return total_score
+
+# 20 Kth Missing Positive Number
