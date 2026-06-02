@@ -263,3 +263,21 @@
 #         return total_score
 
 # 20 Kth Missing Positive Number
+# class Solution:
+#     def findKthPositive(self, arr: List[int], k: int) -> int:
+        
+#         a,i,l=1,0,len(arr)
+#         count = 0
+        
+#         while count < k and i < l:
+#             if not (arr[i]==a):
+#                 count += 1
+                
+#             else:
+#                 i += 1
+#             a+=1
+        
+#         if count < k:
+#             return a + (k-count) - 1
+
+#         return a-1
