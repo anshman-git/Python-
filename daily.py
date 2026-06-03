@@ -281,3 +281,10 @@
 #             return a + (k-count) - 1
 
 #         return a-1
+
+
+# 21 Trim trailing vowels
+# class Solution:
+#     def trimTrailingVowels(self, s: str) -> str:
+#         vowels=['a','e','i','o','u']
+#         return s.rstrip("".join(vowels))
