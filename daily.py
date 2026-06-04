@@ -288,3 +288,10 @@
 #     def trimTrailingVowels(self, s: str) -> str:
 #         vowels=['a','e','i','o','u']
 #         return s.rstrip("".join(vowels))
+
+# 22 Index of an extra element 
+# class Solution:
+#     def findExtra(self,a,b):
+#         #add code here
+#         extra = sum(arr1) - sum(arr2)
+#         return arr1.index(extra)
