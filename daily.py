@@ -311,3 +311,11 @@
 #                 l+=1
 #             ans = max(ans, csum)
 #         return ans
+
+# 23  Percentage of Letter in String ( leetcode 2278)
+# class Solution:
+#     def percentageLetter(self, s: str, letter: str) -> int:
+#         count = s.count(letter)
+#         percentage = (count * 100 ) // len(s) 
+        
+#         return int(percentage)
