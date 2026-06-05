@@ -295,3 +295,19 @@
 #         #add code here
 #         extra = sum(arr1) - sum(arr2)
 #         return arr1.index(extra)
+
+# 22 Max sum subarray of size k
+# class Solution:
+#     def maxSubarraySum(self, arr, k):
+#         # code here 
+#         l=0
+#         csum=0
+#         ans=0
+#         n=len(arr)
+#         for r in range(n):
+#             csum+=arr[r]
+#             while r-l+1>k:
+#                 csum -= arr[l]
+#                 l+=1
+#             ans = max(ans, csum)
+#         return ans
