@@ -328,3 +328,14 @@
 #             if stone in jewels:
 #                 count += 1
 #         return count
+
+# 25 Decode XORed Array
+# class Solution:
+#     def decode(self, encoded: List[int], first: int) -> List[int]:
+#         i=0
+#         arr = [0] * (len(encoded) + 1)
+#         arr[0]=first
+#         for num in encoded:
+#             arr[i+1] = encoded[i] ^ arr[i]
+#             i += 1
+#         return arr
