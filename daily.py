@@ -339,3 +339,21 @@
 #             arr[i+1] = encoded[i] ^ arr[i]
 #             i += 1
 #         return arr
+
+# 26 Partition Array According to Given Pivot
+# class Solution:
+#     def pivotArray(self, nums: List[int], pivot: int) -> List[int]:
+#         arr1 = []
+#         same = []
+#         arr2 = []
+
+#         for num in nums:
+#             if num < pivot:
+#                 arr1.append(num)
+#             elif num == pivot:
+#                 same.append(num)
+#             else:
+#                 arr2.append(num)
+
+#         res = arr1+same+arr2
+#         return res
