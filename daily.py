@@ -357,3 +357,14 @@
 
 #         res = arr1+same+arr2
 #         return res
+
+# 27 How Many Numbers Are Smaller Than the Current Number (leetcode 1365)
+# class Solution:
+#     def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
+#         arr = nums.copy()
+#         arr.sort()
+        
+#         res = []
+#         for num in nums:
+#             res.append(arr.index(num))
+#         return res
