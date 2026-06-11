@@ -368,3 +368,5 @@
 #         for num in nums:
 #             res.append(arr.index(num))
 #         return res
+
+# 28 
