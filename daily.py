@@ -386,3 +386,16 @@
 #         else:
 #             return False
 
+# 29
+# class Solution:
+#     def countTriplet(self, arr):
+#         setarr = set(arr)
+#         count = 0
+#         l = len(arr)
+
+#         for i in range(l - 1):
+#             for j in range(i + 1, l):
+#                 if (arr[i] + arr[j]) in setarr:
+#                     count += 1
+
+#         return count
