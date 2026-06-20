@@ -400,13 +400,13 @@
 
 #         return count
 
-# 
-class Solution:
-    def checkGoodInteger(self, n: int) -> bool:
-        dig = [int(digit) for digit in str(n)]
-        sq = [x**2 for x in dig]
+# 30
+# class Solution:
+#     def checkGoodInteger(self, n: int) -> bool:
+#         dig = [int(digit) for digit in str(n)]
+#         sq = [x**2 for x in dig]
 
-        if ( sum(sq) - sum(dig) >= 50):
-            return True
-        else:
-            return False
+#         if ( sum(sq) - sum(dig) >= 50):
+#             return True
+#         else:
+#             return False
