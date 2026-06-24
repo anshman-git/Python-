@@ -410,3 +410,28 @@
 #             return True
 #         else:
 #             return False
+
+int firstOccurence(char txt[], char pat[]) {
+    // code here
+    int pat_len = strlen(pat);
+    int txt_len = strlen(txt);
+    if (pat_len == 0) {
+        return 0;
+    }
+
+    for (int i = 0; i <= txt_len - pat_len; i++) {
+        int j;
+        
+        for (j = 0; j < pat_len; j++) {
+            if (txt[i + j] != pat[j]) {
+                break;
+            }
+        }
+        if (j == pat_len) {
+            return i;
+        }
+    }
+
+    // Pattern not found
+    return -1;
+}
