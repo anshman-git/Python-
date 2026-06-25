@@ -386,7 +386,7 @@
 #         else:
 #             return False
 
-# 29
+# 29 Count triplet
 # class Solution:
 #     def countTriplet(self, arr):
 #         setarr = set(arr)
@@ -400,7 +400,7 @@
 
 #         return count
 
-# 30
+# 30 Check good integer
 # class Solution:
 #     def checkGoodInteger(self, n: int) -> bool:
 #         dig = [int(digit) for digit in str(n)]
@@ -411,27 +411,14 @@
 #         else:
 #             return False
 
-int firstOccurence(char txt[], char pat[]) {
-    // code here
-    int pat_len = strlen(pat);
-    int txt_len = strlen(txt);
-    if (pat_len == 0) {
-        return 0;
-    }
+# 31 Two sum II
+# def two_sum(nums, target):
+#     seen = {}
 
-    for (int i = 0; i <= txt_len - pat_len; i++) {
-        int j;
-        
-        for (j = 0; j < pat_len; j++) {
-            if (txt[i + j] != pat[j]) {
-                break;
-            }
-        }
-        if (j == pat_len) {
-            return i;
-        }
-    }
+#     for i in range(len(nums)):
+#         complement = target - nums[i]
 
-    // Pattern not found
-    return -1;
-}
+#         if complement in seen:
+#             return [seen[complement], i]
+
+#         seen[nums[i]] = i
