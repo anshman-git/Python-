@@ -449,3 +449,23 @@
 #         suffix *= nums[i]
         
 #     return answer
+
+# 34 Given an integer array nums, return an array answer such that:
+# answer[i] is equal to the product of all the elements of nums except nums[i].
+# Do not use the division operator.
+
+# def product_except_self(nums):
+#     n = len(nums)
+#     ans = [1] * n
+
+#     prefix = 1
+#     for i in range(n):
+#         ans[i] = prefix
+#         prefix *= nums[i]
+
+#     suffix = 1
+#     for i in range(n - 1, -1, -1):
+#         ans[i] *= suffix
+#         suffix *= nums[i]
+
+#     return ans
