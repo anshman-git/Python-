@@ -469,3 +469,12 @@
 #         suffix *= nums[i]
 
 #     return ans
+
+# 35 leetcode 3783 mirror distance
+
+# class Solution:
+#     def mirrorDistance(self, n: int) -> int:
+#         if n<10:
+#             return 0
+#         rev = int(str(n)[::-1])
+#         return abs(rev - n)
